@@ -1,0 +1,20 @@
+{
+  "name": "alaa-solar-system",
+  "version": "1.0.0",
+  "description": "Interactive 3D solar system built with Three.js and Vite.",
+  "author": "Alaa Al Rahbi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile:sass": "sass style.scss style.css --watch"
+  },
+  "dependencies": {
+    "three": "^0.136.0"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2",
+    "sass": "^1.74.0"
+  }
+}
